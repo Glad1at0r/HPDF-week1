@@ -36,5 +36,4 @@ As we have used render_template() in /authors(Task 2) similarly we return it usi
 ###### A text box at http://localhost:8080/input which sends the data as POST to any endpoint of your choice. This endpoint should log the received to stdout.
 First we create a /input route which renders a HTML page containing a textbox and submit button.In action attribute the the form we define "/display" and method as POST.We recieve the value submitted by user on /input by using request.form and print the output.
 
-
  
